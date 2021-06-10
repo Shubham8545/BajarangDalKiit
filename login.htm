@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajrang Dal | LogIn</title>
+    <link rel="icon" href="css/photo/flag.png">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body id="body" oncontextmenu="return false">
+    <div id="header">
+       <div id="logo">
+            <img src="icons/flag.png">
+            <a href="index.htm" class="logo">BAJRANG DAL</a>
+       </div>
+       <a href="signup.htm" id="signIn">
+           Create New Account
+       </a>
+    </div>
+    <form class="box" action="home.htm" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="passwoed" placeholder="Password">
+        <input type="button" name="" value="LOGIN" onclick="check(this.form)">
+    </form>
+     <script language="javascript">
+             function check(form)
+            {
+                if(form.username.value=="Ankit@123" && form.password.value=="1234")
+                    {
+                        window.open('ankit.htm')
+                    }
+                else if(form.username.value=="Shubham@123" && form.password.value=="1234")
+                    {
+                        window.open('shubham.htm')
+                    }
+                else if(form.username.value=="Ishan@123" && form.password.value=="1234")
+                    {
+                        window.open('ishan.htm')
+                    }
+                else if(form.username.value=="Amit@123" && form.password.value=="1234")
+                    {
+                        window.open('amit.htm')
+                    }
+                else if(form.username.value=="Adhiraj@123" && form.password.value=="1234")
+                    {
+                        window.open('adhiraj.htm')
+                    }
+                else if(form.username.value=="Shivank@123" && form.password.value=="1234")
+                    {
+                        window.open('shivank.html')
+                    }
+                else if(form.username.value=="Sunny@123" && form.password.value=="1234")
+                    {
+                        window.open('sunny.html')
+                    }
+                else if(form.username.value=="Raghu@123" && form.password.value=="1234")
+                    {
+                        window.open('teddy.html')
+                    }
+                else if(form.username.value=="Harsh@123" && form.password.value=="1234")
+                    {
+                        window.open('harsh1.htm')
+                    }
+                else if(form.username.value=="Niraj@123" && form.password.value=="1234")
+                    {
+                        window.open('niraj.html')
+                    }
+                else if(form.username.value=="Vickey@123" && form.password.value=="1234")
+                    {
+                        window.open('vickynew1.html')
+                    }
+                
+                else
+                {
+                    alert("The username and password you entered don't match")
+                }
+            }
+        </script>
+</body>
+</html>

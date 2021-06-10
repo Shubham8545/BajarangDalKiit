@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/bajrangdal_Cover.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* Navbar */
+.navbar a img{
+    float: left;
+    width: 35px;
+}
+.logo{
+    padding: 5px;
+    letter-spacing:2px;
+    word-spacing: 5px;
+    color: #ff6c00;
+    border: 1px solid #ff6c00;
+    float: left;
+    transition: 0.6s ease;
+    text-decoration: none;
+}
+.logo:hover{
+    color: white;
+    background-color: #ff6c00;
+    border: 1px solid white;
+}
+
+#form{
+    width: 34%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+#submit{
+    border: 1px solid #ff6c00;
+    background-color: #ff6c00;
+}

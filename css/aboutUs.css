@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+body{
+    background-color: #343a40;
+}
+/* Navbar */
+.navbar{
+    border-bottom: 1px solid #ff6c00;
+    box-shadow: 0px 4px 8px #ff6c00;
+}
+.navbar a img{
+    float: left;
+    width: 35px;
+}
+.logo{
+    padding: 5px;
+    letter-spacing:2px;
+    word-spacing: 5px;
+    color: #ff6c00;
+    border: 1px solid #ff6c00;
+    float: left;
+    transition: 0.6s ease;
+    text-decoration: none;
+}
+.member{
+    width: 240px;
+    float: left;
+    margin-top: 100px;
+}
+.profilePicture{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px 0px 15px 15px ;
+    float: left;
+}
+.ankit{
+    background-image: url(../images/a3.jpg);
+}
+.shubham{
+    background-image: url(../images/subham.jpg);
+}
+.amit{
+    background-image: url(../images/amit.jpg);
+}
+.messi{
+    background-image: url(../images/messi.jpg);
+}
+.gourav{
+    background-image: url(../images/gourav.jpg);
+}
+.shivam{
+    background-image: url(../images/playboy.jpg);
+}
+.ishan{
+    background-image: url(../images/ishan.jpg);
+}
+.shivank{
+    background-image: url(../images/shivank.jpg);
+}
+.chandu{
+    background-image: url(../images/chandu.jpg);
+}
+.ayushChota{
+    background-image: url(../images/ayushChota.jpg);
+}
+.ritik{
+    background-image: url(../images/ritik.jpg);
+}
+.hisham{
+    background-image: url(../images/hisham.jpg);
+}
+.ayush{
+    background-image: url(../images/ayush.jpg);
+}
+.adhiraj{
+    background-image: url(../images/adhiraj.jpg);
+}
+.Shashi{
+    background-image: url(../images/shashi.jpg);
+}
+
+
+.facebook,
+.insta,
+.twitter,
+.whatsapp,
+.linkedin{
+    background-color: rgb(15, 5, 5);
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.facebook{
+    margin-left: 60px;
+    border-radius: 15px 0px 0px 0px;
+}
+.linkedin{
+    border-radius: 0px 0px 15px 0px;
+}
+.facebook img,
+.insta img,
+.twitter img,
+.whatsapp img,
+.linkedin img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    color: rgb(187, 187, 187);
+}
+
+
+.profilePicture .overlay .flex-container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  border-radius: 15px 0px 15px 15px;
+  backdrop-filter: saturate(0%);
+  -webkit-backdrop-filter: saturate(0%);
+  background-color: rgba(0, 0, 0, 0.26);
+  transition: all 0.3s ease-in-out;
+}
+
+.profilePicture .overlay .flex-container h5 {
+  padding: 10px;
+  font-size: 2rem;
+  color: #fefefe;
+}
+
+.profilePicture .overlay {
+  position: absolute;
+  z-index: 2;
+  width: inherit;
+  height: inherit;
+  display: none;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.profilePicture:hover > .overlay {
+  display: block;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}

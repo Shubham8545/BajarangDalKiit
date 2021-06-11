@@ -5,11 +5,11 @@
 }
 body{
     background-color: #343a40;
+    overflow-x: hidden;
 }
 /* Navbar */
 .navbar{
     border-bottom: 1px solid #ff6c00;
-    box-shadow: 0px 4px 8px #ff6c00;
 }
 .navbar a img{
     float: left;
@@ -25,11 +25,32 @@ body{
     transition: 0.6s ease;
     text-decoration: none;
 }
+
+.jumbotron{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../images/Bajrangdal_cover2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 40px;
+}
+.mr{
+    font-weight: 700;
+    margin: 15px 270px 0px 0px;
+}
+h1{
+    color: orange;
+    border-left: 5px solid orangered;
+    padding-left:10px ;
+}
 .member{
     width: 240px;
     float: left;
-    margin-top: 100px;
 }
+
 .profilePicture{
     background-position: center;
     background-repeat: no-repeat;
@@ -149,4 +170,9 @@ body{
   display: block;
   opacity: 1;
   transition: 0.2s ease-in-out;
+}
+/* footer */
+.icons{
+    width: 25px !important;
+    margin-right: 5px;
 }

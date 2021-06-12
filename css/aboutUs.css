@@ -28,7 +28,7 @@ body{
 
 .jumbotron{
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     background-image: url(../images/Bajrangdal_cover2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -175,4 +175,14 @@ h1{
 .icons{
     width: 25px !important;
     margin-right: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .mr{
+        font-weight: 700;
+        margin: 15px 30px 0px 0px;
+    }
+    .member{
+        margin-left: 20%;
+    }
 }

@@ -1,15 +1,19 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
 body{
     background-image: url(../images/bajrangdal_Cover.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0px;
-    padding: 0px;
     font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #header{
-   width: 100%;
+   width: 100vw;
    height: 65px;
 }
 #logo img{
@@ -51,7 +55,7 @@ body{
    color:white;
 }
 .box{
-   width: 500px;
+   width: 320px;
    padding: 40px;
    position: absolute;
    top: 50%;
@@ -102,4 +106,16 @@ body{
    border-color:white;
    color: black;
    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 500px){
+   .logo{
+      color: white;
+   }
+   .box{
+      left: 50%;
+   }
+   .box input[type = "button"]{
+      border: 2px solid lime;
+   }
 }

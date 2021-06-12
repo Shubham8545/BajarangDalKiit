@@ -38,11 +38,12 @@ body{
 
 /* Card */
 .zzz{
+    width: 100%;
     position: relative;
     display: flex;
-    justify-content: space-between;
     margin-top: 40px;
     float: left;
+    margin-bottom: 50px;
 }
 .zzz .yyy{
     position: relative;

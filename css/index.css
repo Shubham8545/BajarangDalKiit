@@ -35,15 +35,9 @@ body{
     transition: 0.6s ease;
     text-decoration: none;
 }
-/* .logo:hover{
-    color: white;
-    background-color: #ff6c00;
-    border: 1px solid white;
-} */
 
 /* Card */
 .zzz{
-    width: 100px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -156,4 +150,17 @@ h3{
 .icons{
     width: 25px !important;
     margin-right: 5px;
+}
+
+
+@media screen and (max-width: 500px){
+    .header{
+        height: 60vh;
+    }
+    .logo{
+        color: white;
+    }
+    .zzz .yyy{
+        margin-left: 70px;
+    }
 }
